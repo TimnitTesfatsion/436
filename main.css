@@ -1,0 +1,142 @@
+/*Author: Timnit Tesfatsion and Kayla Moskes
+		 Course: IS 448
+		 Use Case1: a CSS code of UC1main.css
+		 that is used in as the main backbone on the different HTML pages of the project
+		 for design purposes.
+		 */
+
+body {
+  background-color: white;
+	font-family: "Verdana";
+	font-size:16px;
+	padding: 50px;
+	border: 800px;
+}
+
+a {
+	font-family: "Verdana";
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+
+}
+
+.legal{
+	text-align: center;
+	margin-left: 420px;
+	margin-right: 200px;
+}
+
+a:hover {
+	text-decoration:underline;
+
+}
+
+h1 {
+	text-align:left;
+}
+
+.menu  {
+	background-color: goldenrod;
+	padding: 30px;
+	text-align:center;
+}
+
+.userloginchoice {
+	background-color: white;
+	padding: 10px;
+	text-align:center;
+	color: red;
+}
+
+.previouspage{
+	text-align: left;
+	font-size: 10px;
+
+
+}
+
+.italic {
+	font-style:italic;
+}
+
+.login  {
+	float: right;
+}
+
+
+.dropdown {
+	display:inline;
+	padding:25px;
+	padding-right:0px;
+}
+
+p{
+	text-align: center;
+	font-size: 20px;
+	
+
+}
+
+.program{
+	margin-right:900px;
+	font-size: 20px;
+	color:black;
+	width: 400px;
+	border: 8px goldenrod solid;
+}
+
+.signupbox, .signuponly {
+	margin-left:900px;
+	font-size: 20px;
+	color:black;
+	width: 400px;
+border: 8px goldenrod solid;
+}
+.dropdownHover  {
+	display:none;
+	width:200px;
+	background-color:white;
+	text-align:center;
+	border:1px solid yellow;
+}
+
+
+.dropdown:hover .dropdownHover, .dropdownHover:hover, .dropdownHover:active  {
+	display: block;
+	position: absolute;
+}
+
+img {
+	height:25px;
+	width:25px;
+	border: 1px black solid;
+	vertical-align:right;
+	text-align: right;
+	margin-left: 1000px;
+}
+
+.button {
+	background-color: white;
+	width:100px;
+	text-align:center;
+	padding: 10px;
+	margin-left:50px;
+	margin-right:50px;
+	margin-top:10px;
+	margin-bottom:10px;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button:hover {
+	color: yellow;
+	text-decoration:underline;
+}
+
+footer {
+	font-size:12px;
+	text-align: center;
+	margin-top: 250px;
+
+}
